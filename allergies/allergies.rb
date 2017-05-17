@@ -5,6 +5,7 @@ class AllergenConverter
   def initialize
     @number = nil
   end 
+  
   def convert(number)
     @number = number 
     allergies = []
@@ -17,4 +18,5 @@ class AllergenConverter
     end 
     allergies.join(", ")
   end 
+  
 end 
